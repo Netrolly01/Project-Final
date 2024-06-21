@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Infraestructure.Context
 {
-    internal class SchContext
+    internal class SchoolContext
     {
     }
 }
