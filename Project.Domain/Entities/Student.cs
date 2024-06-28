@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Domain.Entities
 {
-    internal class Class3
+    internal class student
+
     {
     }
 }

@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SchoolActivityApp.Domain.Entities
+namespace SchoolActivityApp.Domain.Interfaces
 {
-    internal class Enrollment
+    internal class IInstructorRepository
+
     {
     }
 }

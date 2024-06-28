@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Domain.Core
 {
-    internal class Class2
+    internal class Person
     {
     }
 }

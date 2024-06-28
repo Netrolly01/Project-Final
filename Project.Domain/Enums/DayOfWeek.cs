@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Domain.Enums
 {
-    internal class Class2
+    internal class DayOfWeek
     {
     }
 }

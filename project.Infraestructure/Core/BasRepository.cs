@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Infraestructure.Core
 {
-    internal class Class1
+    internal class BasRepository
     {
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Domain.Interfaces
 {
-    internal class Class3
+    internal class IScheduleRepository
     {
     }
 }
