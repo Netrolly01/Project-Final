@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Domain.Interfaces
 {
-    internal class IEnrollmentRepository
+    public class IEnrollmentRepository
     {
     }
 }
