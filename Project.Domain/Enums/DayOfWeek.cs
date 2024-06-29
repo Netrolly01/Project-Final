@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Domain.Enums
 {
-    public class DayOfWeek
+    public enum DayOfWeek
     {
+        Monday,
+        Tuesday,
+        Wednesday,
+        Thursday,
+        Friday,
+        Saturday,
+        Sunday
     }
 }

@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Domain.Enums
 {
-    public class ActiviType
+    public enum ActivityType
     {
+        Sports,
+        Arts,
+        Academic,
+        Social,
+        Other
+
     }
 }
