@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SchoolActivityApp.Infraestructure.Models
+namespace SchoolActivityApp.Infraestructure.Interfaces
 {
-    public class Class1DepartmentModel
+    public class IExtraActivityRepos
     {
     }
 }

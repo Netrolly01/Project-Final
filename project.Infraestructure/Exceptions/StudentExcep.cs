@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SchoolActivityApp.Infraestructure.Repositories
+namespace SchoolActivityApp.Infraestructure.Exceptions
 {
-    public class DepartmentRepository
+    public class StudentExcep
     {
     }
 }

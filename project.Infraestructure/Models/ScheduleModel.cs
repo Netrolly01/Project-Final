@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SchoolActivityApp.Domain.Interfaces
+namespace SchoolActivityApp.Infraestructure.Models
 {
-    public class IDepartmentRepository
+    public class ScheduleModel
     {
     }
 }
