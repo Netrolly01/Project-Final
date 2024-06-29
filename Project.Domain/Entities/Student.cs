@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Domain.Entities
 {
-    public class student : BaseEntity
+    public class Student : BaseEntity
 
     {
     public string Nombre { get; set; }

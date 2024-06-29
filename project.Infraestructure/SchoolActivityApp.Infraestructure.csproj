@@ -18,4 +18,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Project.Domain\SchoolActivityApp.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
