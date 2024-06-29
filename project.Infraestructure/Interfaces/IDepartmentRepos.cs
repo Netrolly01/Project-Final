@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Infraestructure.Interfaces
 {
-    internal class IDepartmentRepos
+    public class IDepartmentRepos
     {
     }
 }

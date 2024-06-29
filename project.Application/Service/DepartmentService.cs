@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Application.Service
 {
-    internal class DepartmentService
+    public class DepartmentService
     {
     }
 }

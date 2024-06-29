@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Application.Contract
 {
-    internal class DepartmentServices
+    public class DepartmentServices
     {
     }
 }

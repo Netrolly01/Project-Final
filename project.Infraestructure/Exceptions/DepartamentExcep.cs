@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Infraestructure.Exceptions
 {
-    internal class DepartamentExcep
+    public class DepartamentExcep
     {
     }
 }

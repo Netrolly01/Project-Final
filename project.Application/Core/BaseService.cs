@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Application.Core
 {
-    internal class BaseService
+    public class BaseService
     {
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Infraestructure.Models
 {
-    internal class Class1DepartmentModel
+    public class Class1DepartmentModel
     {
     }
 }
