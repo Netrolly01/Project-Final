@@ -8,5 +8,8 @@ namespace SchoolActivityApp.Domain.Entities
 {
     public class Schedule
     {
+        public string Diasemana { get; set; }
+        public int HoraInicio { get; set; }
+        public int Horafin { get; set; }
     }
 }
