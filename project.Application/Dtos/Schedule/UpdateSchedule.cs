@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Application.Dtos.Schedule
 {
-    internal class UpdateSchedule
+    public class UpdateSchedule
     {
     }
 }

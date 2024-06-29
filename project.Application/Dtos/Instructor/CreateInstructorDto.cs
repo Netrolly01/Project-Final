@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Application.Dtos.Instructor
 {
-    internal class CreateInstructorDto
+    public class CreateInstructorDto
     {
     }
 }

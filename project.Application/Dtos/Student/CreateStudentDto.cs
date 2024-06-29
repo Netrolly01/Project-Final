@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Application.Dtos.Student
 {
-    internal class CreateStudentDto
+    public class CreateStudentDto
     {
     }
 }

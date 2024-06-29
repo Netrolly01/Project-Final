@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolActivityApp.Application.Dtos.Course
 {
-    internal class UpdateCourseDto
+    public class UpdateCourseDto
     {
     }
 }
