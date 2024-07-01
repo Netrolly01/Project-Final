@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SchoolActivityApp.Infraestructure.Models
+namespace SchoolActivityApp.Infrastructure.Models
 {
     public class CourseModel
     {
@@ -13,6 +13,4 @@ namespace SchoolActivityApp.Infraestructure.Models
         public string NombreCursoAula { get; set; }
         public int Capacidad { get; set; }
     }
-}
-
 }

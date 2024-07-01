@@ -1,10 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using SchoolActivityApp.Infrastructure.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<KortexcrudContext>(options =>
-        options.UseSqserver(builder.Configuration.GetConnectionString("conexion")));
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("conexion")));
 
 var app = builder.Build();
 

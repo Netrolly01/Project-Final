@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolActivityApp.IOC", "pr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolActivityApp.Application", "project.Application\SchoolActivityApp.Application.csproj", "{2A3DDB21-BF87-46AC-871D-F712BBA22A28}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolActivityApp.Infraestructure", "project.Infraestructure\SchoolActivityApp.Infraestructure.csproj", "{414BE575-30D0-407B-B8A5-DF3027CF1F30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolActivityApp.Infrastructure", "project.Infraestructure\SchoolActivityApp.Infrastructure.csproj", "{414BE575-30D0-407B-B8A5-DF3027CF1F30}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolActivityApp.API", "project.API\SchoolActivityApp.API.csproj", "{F9124328-A876-4959-9449-A3BC30B47B4A}"
 EndProject

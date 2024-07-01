@@ -16,12 +16,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Project.Domain\SchoolActivityApp.Domain.csproj" />
-    <ProjectReference Include="..\project.Infraestructure\SchoolActivityApp.Infraestructure.csproj" />
+    <ProjectReference Include="..\project.Infraestructure\SchoolActivityApp.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
