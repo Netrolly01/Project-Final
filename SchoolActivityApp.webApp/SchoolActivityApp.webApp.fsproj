@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Models/ErrorViewModel.fs" />
+    <Compile Include="Controllers/HomeController.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\project.Application\SchoolActivityApp.Application.csproj" />
+    <ProjectReference Include="..\project.IOC\SchoolActivityApp.IOC.csproj" />
+  </ItemGroup>
+
+</Project>
