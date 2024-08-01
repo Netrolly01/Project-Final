@@ -4,14 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SchoolActivityApp.Infraestructure.Models
+namespace SchoolActivityApp.Infrastructure.Models
 {
     public class ScheduleModel
-
     {
         public int Id { get; set; }
         public string DiaSemana { get; set; }
-        public int HoraInicio { get; set; }
-        public int Horafin { get; set; }
+        public TimeSpan HoraInicio { get; set; }
+        public TimeSpan Horafin { get; set; }
+
+      
+        public int ActividadID { get; set; }
+        public ExtraActivityModel Actividad { get; set; }
     }
 }
+
