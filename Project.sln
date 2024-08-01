@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolActivityApp.Infrastru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolActivityApp.API", "project.API\SchoolActivityApp.API.csproj", "{F9124328-A876-4959-9449-A3BC30B47B4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolActivityApp.webApp", "SchoolActivity.webApp\SchoolActivityApp.webApp.csproj", "{5FEFD717-26D6-4B0A-8F29-9EEEEB572C38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{F9124328-A876-4959-9449-A3BC30B47B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9124328-A876-4959-9449-A3BC30B47B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9124328-A876-4959-9449-A3BC30B47B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FEFD717-26D6-4B0A-8F29-9EEEEB572C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FEFD717-26D6-4B0A-8F29-9EEEEB572C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FEFD717-26D6-4B0A-8F29-9EEEEB572C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FEFD717-26D6-4B0A-8F29-9EEEEB572C38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
