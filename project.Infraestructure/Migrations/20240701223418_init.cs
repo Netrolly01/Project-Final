@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
-
 namespace SchoolActivityApp.Infrastructure.Migrations
 {
     /// <inheritdoc />

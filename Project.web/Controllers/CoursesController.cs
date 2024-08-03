@@ -10,7 +10,6 @@ namespace SchoolActivityApp.web.Controllers
         {
             this.httpClientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyError) => { return true; };
 
-        }
         // GET: CoursesController
         public ActionResult Index()
         {    
@@ -23,16 +22,13 @@ namespace SchoolActivityApp.web.Controllers
                 {
                     if (response.StatusCode == System.Net.HttpStatusCode.OK)
                     {
-                        string apiResponse =  response.Content.ReadAsStringAsync().Result;
-                        //courseReponse = JsonConvert.DeserializeObject<CourseListReponse>(apiResponse);
+                    var apiResponse = await response.Content.ReadAsStringAsync();
+                    courses = JsonConvert.DeserializeObject<List<Course>>(apiResponse);
+                }
                     }
 
-
-                }
-            }
-            return View();
+            return View(courses);
         }
-
 
         // GET: CoursesController/Details/5
         public ActionResult Details(int id)

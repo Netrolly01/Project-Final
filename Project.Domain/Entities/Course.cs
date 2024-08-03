@@ -1,11 +1,9 @@
-﻿using Project.Domain;
-
 namespace SchoolActivityApp.Domain.Entities
 {
-    public class Course : BaseEntity
+    public class Course
     {
-        public int CursoID { get; set; }
-        public string NombreCursoAula { get; set; }
+        public int Id { get; set; }
+        public required string NombreCursoAula { get; set; }
         public int Capacidad { get; set; }
     }
 }
