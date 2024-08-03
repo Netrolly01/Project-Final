@@ -1,10 +1,11 @@
-﻿using System;
+﻿using SchoolActivityApp.Infraestructure.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SchoolActivityApp.Infraestructure.Models
+namespace SchoolActivityApp.Infrastructure.Models
 {
     public class ExtraActivityModel
     {
@@ -17,5 +18,11 @@ namespace SchoolActivityApp.Infraestructure.Models
         public int InstructorID { get; set; }
         public int CursoID { get; set; }
 
+     
+        public InstructorModel Instructor { get; set; }
+        public CourseModel Curso { get; set; }
+        public List<EnrollmentModel> Inscripciones { get; set; }
+        public List<ScheduleModel> Horarios { get; set; }
     }
 }
+

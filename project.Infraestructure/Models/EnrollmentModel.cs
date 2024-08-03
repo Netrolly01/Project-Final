@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SchoolActivityApp.Infraestructure.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,10 @@ namespace SchoolActivityApp.Infrastructure.Models
         public int InscripcionesId { get; set; }
         public int EstudiantesId { get; set; }
         public DateTime FechaInscripcion { get; set; }
+
+        
+        public ExtraActivityModel Actividad { get; set; }
+        public StudentModel Estudiante { get; set; }
     }
 }
 
