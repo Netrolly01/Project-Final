@@ -24,4 +24,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\project.Infraestructure\SchoolActivityApp.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

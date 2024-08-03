@@ -10,7 +10,7 @@ namespace SchoolActivityApp.Infrastructure.Models
     {
         public int Id { get; set; }
         public int CursoID { get; set; }
-        public string NombreCursoAula { get; set; }
+        public string? NombreCursoAula { get; set; }
         public int Capacidad { get; set; }
     }
 }

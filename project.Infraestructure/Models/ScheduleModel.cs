@@ -10,7 +10,7 @@ namespace SchoolActivityApp.Infrastructure.Models
     public class ScheduleModel
     {
         public int Id { get; set; }
-        public string DiaSemana { get; set; }
+        public string? DiaSemana { get; set; }
         public TimeSpan HoraInicio { get; set; }
         public TimeSpan Horafin { get; set; }
 

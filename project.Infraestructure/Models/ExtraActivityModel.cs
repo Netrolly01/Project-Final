@@ -11,8 +11,8 @@ namespace SchoolActivityApp.Infrastructure.Models
     {
         public int Id { get; set; }
         public int ActividadID { get; set; }
-        public string NombreActividad { get; set; }
-        public string Descripcion { get; set; }
+        public string? NombreActividad { get; set; }
+        public string? Descripcion { get; set; }
         public DateTime FechaInicio { get; set; }
         public DateTime FechaFin { get; set; }
         public int InstructorID { get; set; }
