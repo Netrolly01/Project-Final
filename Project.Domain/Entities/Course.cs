@@ -1,3 +1,5 @@
+﻿using Project.Domain;
+
 namespace SchoolActivityApp.Domain.Entities
 {
     public class Course

@@ -11,8 +11,8 @@ namespace SchoolActivityApp.Domain.Entities
     public class ExtraActivity : BaseEntity
     {
         public int ActividadID { get; set; }
-        public string NombreActividad { get; set; }
-        public string Descripcion { get; set; }
+        public required string NombreActividad { get; set; }
+        public required string Descripcion { get; set; }
         public DateTime FechaInicio { get; set; }
         public DateTime FechaFin {  get; set; }
         public int InstructorID { get; set; }

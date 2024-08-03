@@ -1,31 +1,42 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using SchoolActivityApp.Domain.Entities;
+
 
 namespace SchoolActivityApp.web.Controllers
 {
     public class CoursesController : Controller
     {
-        HttpClientHandler httpClientHandler = new HttpClientHandler();
+        private readonly HttpClientHandler _httpClientHandler;
+        private readonly IConfiguration _configuration;
+
         public CoursesController(IConfiguration configuration)
         {
-            this.httpClientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyError) => { return true; };
+            _httpClientHandler = new HttpClientHandler
+            {
+                ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyError) => { return true; }
+            };
+            _configuration = configuration;
+        }
 
         // GET: CoursesController
-        public ActionResult Index()
-        {    
-            using (var httpClient = new HttpClient(this.httpClientHandler))
+        public async Task<ActionResult> Index()
+        {
+            var url = "https://localhost:44301/api/Courses";
+            List<Course> courses = new List<Course>();
+
+            using (var httpClient = new HttpClient(_httpClientHandler))
             {
-                var url = "https://localhost:44301/api/Courses";
-
-
-                using (var response =  httpClient.GetAsync(url).Result)
+                var response = await httpClient.GetAsync(url);
+                if (response.IsSuccessStatusCode)
                 {
-                    if (response.StatusCode == System.Net.HttpStatusCode.OK)
-                    {
                     var apiResponse = await response.Content.ReadAsStringAsync();
+#pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
                     courses = JsonConvert.DeserializeObject<List<Course>>(apiResponse);
+#pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
                 }
-                    }
+            }
 
             return View(courses);
         }
