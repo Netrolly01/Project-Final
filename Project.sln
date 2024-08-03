@@ -15,7 +15,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolActivityApp.Infrastru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolActivityApp.API", "project.API\SchoolActivityApp.API.csproj", "{F9124328-A876-4959-9449-A3BC30B47B4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolActivityApp.webApp", "SchoolActivity.webApp\SchoolActivityApp.webApp.csproj", "{5FEFD717-26D6-4B0A-8F29-9EEEEB572C38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolActivityApp.webApp", "SchoolActivity.webApp\SchoolActivityApp.webApp.csproj", "{5FEFD717-26D6-4B0A-8F29-9EEEEB572C38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F673AC0-63DF-44AF-81D1-4FD16926B35A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
