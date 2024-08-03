@@ -9,7 +9,7 @@ namespace SchoolActivityApp.Application.Dtos.Course
     public class CreateCourseDto
     {
         public int CursoID { get; set; }
-        public string? NombreCursoAula { get; set; }
+        public required string NombreCursoAula { get; set; }
         public int Capacidad { get; set; }
     }
 }
